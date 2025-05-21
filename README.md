@@ -17,7 +17,7 @@
 
 ## Demo
 
-You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/](https://shivam-sharma-myportfolio.vercel.app/).
+You can see a live demo of the portfolio website at [https://purvil-modi-portfolio.vercel.app/](https://purvil-modi-portfolio.vercel.app/).
 
 ## Features
 
@@ -48,13 +48,13 @@ You can see a live demo of the portfolio website at [https://shivam-sharma-mypor
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/Shivam-Sharma-1/3D-Portfolio
+git clone https://github.com/purvilmodi/purvil_modi_Portfolio
 ```
 
 2. Change to the project directory:
 
 ```bash
-cd 3d-portfolio
+cd purvil_modi_Portfolio
 ```
 
 3. Install the project dependencies:
@@ -83,4 +83,4 @@ The project structure is organized as follows:
 
 ## Author
 
--   [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1)
+-   [@purvilmodi](https://github.com/purvilmodi)
