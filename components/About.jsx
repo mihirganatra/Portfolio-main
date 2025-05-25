@@ -29,7 +29,7 @@ function About() {
       >
         <div>
           Hello! I&apos;m Purvil Modi, a budding full-stack web developer with a strong passion for building dynamic and responsive web applications.
-          Currently, I&apos;m pursuing my Bachelor&apos;s degree in Computer Applications (BCA) and continuing my journey into a Master&apos;s degree (MCA) at GLS University, Ahmedabad. I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have a keen interest in solving real-world problems through clean, efficient code.
+          Currently, I&apos;m complete my Bachelor&apos;s degree in Computer Applications (BCA) and continuing my journey into a Master&apos;s degree (MCA) at GLS University, Ahmedabad. I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have a keen interest in solving real-world problems through clean, efficient code.
           With hands-on experience in JavaScript, HTML, CSS, and modern frameworks like React and Node.js, I aim to grow as a software developer who builds meaningful and scalable web solutions. I&apos;m also continuously improving my understanding of data structures, algorithms, and software design principles.
           I&apos;m enthusiastic about learning, collaborating with others, and contributing to impactful projects. I&apos;m excited to be part of the tech industry and open to opportunities that allow me to grow, innovate, and make a difference.
           <br className="sm:block hidden" />
