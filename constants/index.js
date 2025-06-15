@@ -417,32 +417,36 @@ const projects = [
     // deployed_link:
     //   "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
+  {
+    name: "Vehicle Management System",
+    description:
+      "The Vehicle Management System is a full-stack web application designed to manage vehicle-related data efficiently. It allows users to add, update, and delete vehicle information, providing a user-friendly interface for managing vehicle records.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/vehicle.png",
+    source_code_link: "https://github.com/purvilmodi/Vehicle-management-system-with-AI-assistent",
+    // deployed_link: "https://netflix-clone12345.vercel.app",
+  },
   // {
   //   name: "Van-Life",
   //   description:
