@@ -59,7 +59,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/purvilmodi.pdf"
+          href="document/Purvilmodi.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"
