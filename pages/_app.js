@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import "@/styles/globals.css";
 
 import { PreLoader } from "@/components/Loader";
+import Lenis from "lenis";
 
 export default function App({ Component, pageProps }) {
 	const [loading, setLoading] = useState(true);
@@ -20,6 +21,27 @@ export default function App({ Component, pageProps }) {
 			document.body.style.overflowY = "hidden";
 		} else {
 			document.body.style.overflowY = "auto";
+		}
+	}, [loading]);
+
+	useEffect(() => {
+		if (!loading) {
+			const lenis = new Lenis({
+				smooth: true,
+				smoothTouch: true,
+				syncTouch: true,
+				duration: 1.2, // adjust for speed
+			});
+
+			function raf(time) {
+				lenis.raf(time);
+				requestAnimationFrame(raf);
+			}
+			requestAnimationFrame(raf);
+
+			return () => {
+				lenis.destroy();
+			};
 		}
 	}, [loading]);
 
