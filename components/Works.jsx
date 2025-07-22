@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import { projects } from "../constants";
+import { projects, certifications } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import truncateText from "@/utils/truncate";
 import GithubLogo from "./../public/assets/icons/github.svg";
@@ -85,40 +85,95 @@ function ProjectCard({
   );
 }
 
+function CertificationCard({ name, issuer, date, image, link }) {
+  return (
+    <div className="dark:bg-bgSecondaryDark bg-bgSecondaryLight p-5 rounded-2xl sm:w-[370px] w-full h-fit min-h-[200px] shadow-sm shadow-primary flex flex-col justify-between">
+      <div>
+        <h3 className="dark:text-ctnPrimaryDark text-ctnPrimaryLight font-bold text-[20px]">{name}</h3>
+        <p className="mt-1 dark:text-ctnSecondaryDark text-ctnSecondaryLight text-[15px]">{issuer}</p>
+        <p className="mt-1 text-xs text-gray-400">{date}</p>
+      </div>
+      <div className="mt-4 flex items-center gap-2">
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-blue-500 underline hover:text-blue-700"
+          >
+            View Certificate
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function Works() {
   return (
-    <section className="xl:my-36 md:mx-36 p-8 " id="projects">
-      <motion.div
-        variants={textVariant()}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, amount: 0.25 }}
-      >
-        <p className={"sectionSubText"}>My work</p>
-        <h2 className={"sectionHeadText"}>Projects.</h2>
-      </motion.div>
-
-      <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 dark:text-ctnSecondaryDark text-ctnSecondaryLight text-[17px] max-w-3xl leading-[30px]"
+    <>
+      <section className="xl:my-36 md:mx-36 p-8 " id="projects">
+        <motion.div
+          variants={textVariant()}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
         >
-          These projects showcase my practical skills and experience, each with
-          descriptions and links to code repositories and live demos. They
-          demonstrate my ability to handle complex challenges, adapt to
-          different technologies, and oversee projects from start to finish.
-        </motion.p>
-      </div>
+          <p className={"sectionSubText"}>My work</p>
+          <h2 className={"sectionHeadText"}>Projects.</h2>
+        </motion.div>
 
-      <div className="md:mt-20 mt-10 flex justify-center flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
-    </section>
+        <div className="w-full flex">
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-3 dark:text-ctnSecondaryDark text-ctnSecondaryLight text-[17px] max-w-3xl leading-[30px]"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+          >
+            These projects showcase my practical skills and experience, each with
+            descriptions and links to code repositories and live demos. They
+            demonstrate my ability to handle complex challenges, adapt to
+            different technologies, and oversee projects from start to finish.
+          </motion.p>
+        </div>
+
+        <div className="md:mt-20 mt-10 flex justify-center flex-wrap gap-7">
+          {projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
+      </section>
+
+      {/* Certifications Section */}
+      <section className="xl:my-18 md:mx-18 p-8 " id="certifications">
+        <motion.div
+          variants={textVariant()}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+        >
+          <p className={"sectionSubText"}>My achievements</p>
+          <h2 className={"sectionHeadText"}>Certifications.</h2>
+        </motion.div>
+        <div className="w-full flex">
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-3 dark:text-ctnSecondaryDark text-ctnSecondaryLight text-[17px] max-w-3xl leading-[30px]"
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+          >
+            Here are some of the certifications I have earned, demonstrating my commitment to continuous learning and professional growth.
+          </motion.p>
+        </div>
+        <div className="md:mt-20 mt-10 flex justify-center flex-wrap gap-7">
+          {certifications.map((cert, idx) => (
+            <CertificationCard key={`certification-${idx}`} {...cert} />
+          ))}
+        </div>
+      </section>
+    </>
   );
 }
 

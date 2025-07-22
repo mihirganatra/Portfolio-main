@@ -27,6 +27,10 @@ const navLinks = [
     title: "Projects",
   },
   {
+    id: "certifications",
+    title: "Certification",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -493,6 +497,58 @@ const projects = [
   // }
 ];
 
+const certifications = [
+  {
+    name: "Introduction on Generative AI – Artificial Intelligence and Machine Learning",
+    issuer: "National Skill Development Corporation",
+    date: "July 2025",
+    image: "/assets/document/nsdc-Introduction_on_Generative_AI___Artificial_Intelligence_and_Machine_Learning-Modi_Purvilkumar_Shaileshbhai.pdf", // Example, replace with actual image if available
+    link: "/document/nsdc-Introduction_on_Generative_AI___Artificial_Intelligence_and_Machine_Learning-Modi_Purvilkumar_Shaileshbhai.pdf"
+  },
+  {
+    name: "Data Analytics Job Simulation",
+    issuer: "Deloitte",
+    date: "Jun 2025",
+    image: "/assets/document/dataanalytics_delottee.pdf", // Add image if available
+    link: "/document/dataanalytics_delottee.pdf"
+  },
+  {
+    name: "Cyber Job Simulation",
+    issuer: "Deloitte",
+    date: "Jun 2025",
+    image: "/assets/document/cyber_delotte.pdf", // Add image if available
+    link: "/document/cyber_delotte.pdf"
+  },
+  {
+    name: "Technology Job Simulation",
+    issuer: "Deloitte",
+    date: "Jun 2025",
+    image: "/assets/document/delottee_certificate.pdf", // Add image if available
+    link: "/document/delottee_certificate.pdf"
+  },
+  {
+    name: "Career Essentials in Cybersecurity ",
+    issuer: "Microsoft and LinkedIn",
+    date: "Jul 2024",
+    image: "/assets/document/CertificateOfCompletion_Career Essentials in Cybersecurity by Microsoft and LinkedIn.pdf", // Add image if available
+    link: "/document/CertificateOfCompletion_Career Essentials in Cybersecurity by Microsoft and LinkedIn.pdf"
+  },
+  {
+    name: "Cybersecurity Awareness:Cybersecurity Terminology",
+    issuer: "Microsoft and LinkedIn",
+    date: "Jul 2024",
+    image: "/assets/document/CertificateOfCompletion_Cybersecurity Awareness Cybersecurity Terminology.pdf", // Add image if available
+    link: "/document/CertificateOfCompletion_Cybersecurity Awareness Cybersecurity Terminology.pdf"
+  },
+  {
+    name: "Data Visualisation: Empowering Business with Effective Insights",
+    issuer: "Forage",
+    date: "Sep 2024",
+    image: "/assets/document/tata certificate.pdf", // Add image if available
+    link: "/document/tata certificate.pdf"
+  },
+];
+
 const socials = [
   {
     id: "github",
@@ -540,4 +596,5 @@ export {
   projects,
   socials,
   heroTexts,
+  certifications,
 };
