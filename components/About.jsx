@@ -28,9 +28,9 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Purvil Modi, a budding full-stack web developer with a strong passion for building dynamic and responsive web applications.
-          Currently, I&apos;m complete my Bachelor&apos;s degree in Computer Applications (BCA) and continuing my journey into a Master&apos;s degree (MCA) at GLS University, Ahmedabad. I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have a keen interest in solving real-world problems through clean, efficient code.
-          With hands-on experience in JavaScript, HTML, CSS, and modern frameworks like React and Node.js, I aim to grow as a software developer who builds meaningful and scalable web solutions. I&apos;m also continuously improving my understanding of data structures, algorithms, and software design principles.
+          Hello! I&apos;m Mihir Ganatra, a passionate and detail-oriented software developer with a strong foundation in programming and problem-solving
+          Currently, I&apos;m complete my Bachelor&apos;s degree in Computer Applications (BCA) and continuing my journey into a Master&apos;s degree (MCA) at LJ University, Ahmedabad. and have hands-on experience in building robust applications using Java, Python, and C#, along with a growing interest in full-stack development and have a keen interest in solving real-world problems through clean, efficient code.
+          I specialize in creating efficient, maintainable software solutions and have practical knowledge of API integration, database management, and debugging techniques. With proficiency in JavaScript, HTML, CSS, and modern frameworks, I focus on delivering high-quality code and scalable solutions.I&apos;m also continuously improving my understanding of data structures, algorithms, and software design principles.
           I&apos;m enthusiastic about learning, collaborating with others, and contributing to impactful projects. I&apos;m excited to be part of the tech industry and open to opportunities that allow me to grow, innovate, and make a difference.
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
@@ -43,7 +43,7 @@ function About() {
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            purvilmodi2@gmail.com
+            mihirganatra71@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -59,7 +59,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Purvilmodi-202400719010105.pdf"
+          href="document/mihir.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

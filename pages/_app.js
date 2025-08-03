@@ -45,9 +45,9 @@ export default function App({ Component, pageProps }) {
 		}
 	}, [loading]);
 
-	const title = "Portfolio | Purvil Modi";
+	const title = "Portfolio | Mihir Ganatra";
 	const description =
-		"Hello! I'm Purvil, a passionate web developer and problem solver. Welcome to my portfolio";
+		"Hello! I'm Mihir, a passionate Software developer and problem solver. Welcome to my portfolio";
 	const avatar =
 		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
 	const url = "https://shivam-sharma-myportfolio.vercel.app/";
@@ -80,19 +80,19 @@ export default function App({ Component, pageProps }) {
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
-					href="/assets/icons/favicon/avtar-1.png"
+					href="/assets/icons/favicon/avtar-2.png"
 				/>
 				<link
 					rel="icon"
 					type="image/png"
 					sizes="32x32"
-					href="/assets/icons/favicon/avtar-1.png"
+					href="/assets/icons/favicon/avtar-2.png"
 				/>
 				<link
 					rel="icon"
 					type="image/png"
 					sizes="16x16"
-					href="/assets/icons/favicon/avtar-1.png"
+					href="/assets/icons/favicon/avtar-2.png"
 				/>
 				<link
 					rel="manifest"

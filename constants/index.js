@@ -45,18 +45,18 @@ const services = [
     title: "Frontend Developer",
     icon: <FrontendIcon />,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: <BackendIcon />,
-  // },
+   {
+     title: "Backend Developer",
+     icon: <BackendIcon />,
+   },
   {
-    title: "Problem Solving",
+    title: "Problem Solving", 
     icon: <ProblemSolvingIcon />,
   },
-  {
-    title: "Freelancer",
-    icon: <FreelancerIcon />,
-  },
+  //{
+    //title: "Freelancer",
+   // icon: <FreelancerIcon />,
+  //},
   // {
   //   title: "Leadership",
   //   icon: <LeaderShipIcon />,
@@ -80,11 +80,11 @@ const technologies = {
       icon: "/assets/tech/javascript.svg",
       link: "https://262.ecma-international.org/",
     },
-    {
-      name: "TypeScript",
-      icon: "/assets/tech/typescript.svg",
-      link: "https://www.typescriptlang.org/",
-    },
+    //{
+      //name: "TypeScript",
+      //icon: "/assets/tech/typescript.svg",
+      //link: "https://www.typescriptlang.org/",
+    //},
     {
       name: "C",
       icon: "/assets/tech/c.svg",
@@ -100,28 +100,39 @@ const technologies = {
       icon: "/assets/tech/python.svg",
       link: "https://www.python.org/",
     },
+    {
+      name: "C#",
+      icon: "/assets/tech/c-sharp.png",
+      link: "https://www.w3schools.com/cs/index.php",
+    },
   ],
   frameworks: [
+    //{
+     // name: "Next.js",
+      //icon: "/assets/tech/nextjs.svg",
+      //link: "https://nextjs.org/",
+   // },
+    //{
+     // name: "TailwindCSS",
+      //icon: "/assets/tech/tailwindcss.svg",
+      //link: "https://tailwindcss.com/",
+    //},
     {
-      name: "Next.js",
-      icon: "/assets/tech/nextjs.svg",
-      link: "https://nextjs.org/",
-    },
-    {
-      name: "TailwindCSS",
-      icon: "/assets/tech/tailwindcss.svg",
-      link: "https://tailwindcss.com/",
-    },
-    {
-      name: "Express.js",
-      icon: "/assets/tech/expressjs.png",
-      link: "https://expressjs.com/",
+      name: "ASP.NET",
+      icon: "/assets/tech/asp_net_128_px.png",
+      link: "https://www.w3schools.com/asp/webpages_intro.asp",
     },
     {
       name: "Flutter",
       icon: "/assets/tech/flutter.svg",
       link: "https://flutter.dev/",
     },
+    {
+      name: "django",
+      icon: "/assets/tech/django-python-logo.png",
+      link: "https://www.w3schools.com/django/django_intro.php",
+    },
+
   ],
   libraries: [
     {
@@ -130,9 +141,9 @@ const technologies = {
       link: "https://react.dev/",
     },
     {
-      name: "Three.js",
-      icon: "/assets/tech/threejs.svg",
-      link: "https://threejs.org/",
+      name: "Matplotlib",
+      icon: "/assets/tech/download (2).png",
+      link: "https://matplotlib.org/",
     },
     // {
     //   name: "Styled-Components",
@@ -140,9 +151,9 @@ const technologies = {
     //   link: "https://styled-components.com/",
     // },
     {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
+      name: "jQuery",
+      icon: "/assets/tech/jQuery.png",
+      link: "https://jquery.com/",
     },
     // {
     //   name: "Zustand",
@@ -154,11 +165,11 @@ const technologies = {
     //   icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
     //   link: "https://redux.js.org",
     // },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
+    //{
+      //name: "NextAuth.js",
+ //     icon: "/assets/tech/nextauthjs.png",
+   //   link: "https://next-auth.js.org/",
+    //},
     // {
     //   name: "Prisma",
     //   icon: "/assets/tech/prisma.svg",
@@ -181,11 +192,11 @@ const technologies = {
       icon: "/assets/tech/postman.svg",
       link: "https://www.postman.com/",
     },
-    {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
-      link: "https://www.figma.com/",
-    },
+   // {
+    //  name: "Figma",
+      //icon: "/assets/tech/figma.svg",
+      //link: "https://www.figma.com/",
+    //},
     // {
     //   name: "Docker",
     //   icon: "/assets/tech/docker.svg",
@@ -206,20 +217,25 @@ const technologies = {
       link: "https://www.mysql.com/",
     },
     {
-      name: "PostgreSQL",
-      icon: "/assets/tech/postgresql.png",
-      link: "https://www.postgresql.org",
+      name: "SQL Server",
+      icon: "/assets/tech/images-removebg-preview.png",
+      link: "https://www.sqlservercentral.com/",
     },
     {
       name: "MongoDB",
       icon: "/assets/tech/mongodb.svg",
       link: "https://www.mongodb.com/",
     },
-    // {
-    //   name: "Firebase",
-    //   icon: "/assets/tech/firebase.svg",
-    //   link: "https://firebase.google.com/",
-    // },
+     {
+      name: "Firebase",
+      icon: "/assets/tech/firebase.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "MS Access",
+      icon: "/assets/tech/Microsoft_Access-Logo.wine.png",
+      link: "https://www.microsoft.com/en-in/microsoft-365/access",
+    },
   ],
 };
 
@@ -307,56 +323,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Online Bus ticket reservation system",
+    name: "Quiz Application",
     description:
-      " Anyone can visit our site but in order to see available buses of your selected routes he/she have to login in our website by their registered Email address and correct password. If anyone is a new customer and still haven’t registered then, he/she can register in our site by filling the required details. Unregistered customers can register by navigating to the registration page. Only website owner has access to add a new admin panel user with their role. By default website developer is an owner and other role is Administrator who can manage admin side but can’t add new user for the admin panel.",
+      "Quiz Application designed to make learning fun and interactive. The app includes gamified quizzes, real-time score tracking, leaderboards, user feedback, and a reward based spin wheel to boost engagement. An integrated admin panel allows easy management of quiz content, users, and app activity.",
     tags: [
       {
-        name: "PHP",
+        name: "Adroid",
         color: "blue-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Bootstrap",
+        name: "XML",
         color: "orange-text-gradient",
       },
+
     ],
-    image:
-      "/assets/projects/image.png",
-    source_code_link: "https://github.com/purvilmodi/online-busticket-reservation-system",
+    image:"/assets/projects/quizz.jpg",
+    source_code_link: "https://github.com/mihirganatra/QuizGame-Adnroid",
     // deployed_link: "https://quick-edit-app.vercel.app",
   },
   {
-    name: "Pinterest Clone",
+    name: "Student Management System",
     description:
-      "A Pinterest-inspired web application where users can create, share, and save image-based posts. This project includes core features of Pinterest, allowing users to explore various posts, follow other users, and curate their own collections. Built with a focus on a seamless, visually engaging user experience.",
+      "Designed and developed a role-based School Management System with secure login, password recovery, and access control for Admin, Teacher, and Student roles. Key features include managing students and teachers, tracking attendance, handling fees, processing leave requests, and providing personalized dashboards for each user role. ",
     tags: [
       {
-        name: "React.js",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "ASP.NET",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Node.js",
+        name: "MS SQL Server",
         color: "orange-text-gradient",
       },
+      {
+        name: "Entity Framework",
+        color: "yellow-text-gradient",
+      },
+
+
     ],
-    image: "/assets/projects/image2.png",
-    source_code_link: "https://github.com/purvilmodi/Pinterest-clone",
+    image: "/assets/projects/schoolma.jpg",
+    source_code_link: "https://github.com/mihirganatra/Student-Management-System",
     // deployed_link: "https://fig-pro-github.vercel.app",
   },
   // {
@@ -390,65 +404,126 @@ const projects = [
   //   deployed_link: "https://gdscmvjce.vercel.app/",
   // },
   {
-    name: "Event Management System",
+    name: "Gemini Clone",
     description:
-      "The Event Management System is a full-stack web application built to streamline the organization, display, and media management of events. This system allows administrators to manage upcoming and past events, upload event-related media (images and videos), and maintain a seamless gallery and blog experience for users.",
+      "Developed a Gemini AI Clone using React.js, featuring a responsive user interface and smooth, interactive experience. Implemented dynamic query-response functionality and optimized performance, reducing load time by 30%. Integrated RESTful APIs and worked collaboratively with a team to ensure smooth deployment and functionality.",
     tags: [
       {
-        name: "Javascript",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
+        name: "React.js",
         color: "orange-text-gradient",
       },
       {
-        name: "express.js",
+        name: "TypeScript",
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/image3.png",
+    image: "/assets/projects/gemini.jpg",
     source_code_link:
-      "https://github.com/purvilmodi/event_management",
+      "https://github.com/mihirganatra/gemini-clone",
     // deployed_link:
     //   "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
   },
   {
-    name: "Vehicle Management System",
+    name: "Hotel Management System",
     description:
-      "The Vehicle Management System is a full-stack web application designed to manage vehicle-related data efficiently. It allows users to add, update, and delete vehicle information, providing a user-friendly interface for managing vehicle records.",
+      "Designed an online booking platform with reservation management and live status updates to optimize guest and staff workflows. Built responsive interfaces using HTML, CSS, JavaScript, and implemented a C# backend for real-time database operations.",
     tags: [
       {
         name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
+        name: "C#",
         color: "orange-text-gradient",
       },
       {
-        name: "express.js",
+        name: "ASP.NET",
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/vehicle.png",
-    source_code_link: "https://github.com/purvilmodi/Vehicle-management-system-with-AI-assistent",
+    image: "/assets/projects/hotel.jpg",
+    source_code_link: "https://github.com/mihirganatra/hotelManagement-Asp.net",
+    // deployed_link: "https://netflix-clone12345.vercel.app",
+  },
+  {
+    name: "ATMInterface",
+    description:
+      "ATM Interface – A console-based Java project that simulates basic ATM operations. It allows users to perform functions like account login, balance inquiry, cash withdrawal, deposit, and PIN change. The project emphasizes object-oriented programming concepts, user authentication, and secure transaction handling through a simple and interactive interface.",
+    tags: [
+      {
+        name: "JAVA",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JSP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Servlet",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JDBC",
+        color: "yellow-text-gradient",
+      },
+      
+    ],
+    image: "/assets/projects/end_result.png",
+    source_code_link: "https://github.com/mihirganatra/ATMInterface",
+    // deployed_link: "https://netflix-clone12345.vercel.app",
+  },
+  {
+    name: "Hospital Management System",
+    description:
+      "Hospital Management System – A Java-based application designed to manage hospital operations such as patient registration, appointment scheduling, doctor management, and billing. It provides a user-friendly interface and ensures efficient record-keeping using core Java concepts, OOP, and file handling for smooth hospital administration. ",
+    tags: [
+      {
+        name: "JAVA",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JSP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Servlet",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JDBC",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: "/assets/projects/hms_new_final.png",
+    source_code_link: "https://github.com/mihirganatra/HospitalManagementSystemGUI",
     // deployed_link: "https://netflix-clone12345.vercel.app",
   },
   // {
@@ -499,53 +574,67 @@ const projects = [
 
 const certifications = [
   {
-    name: "Introduction on Generative AI – Artificial Intelligence and Machine Learning",
-    issuer: "National Skill Development Corporation",
-    date: "July 2025",
-    image: "/assets/document/nsdc-Introduction_on_Generative_AI___Artificial_Intelligence_and_Machine_Learning-Modi_Purvilkumar_Shaileshbhai.pdf", // Example, replace with actual image if available
-    link: "/document/nsdc-Introduction_on_Generative_AI___Artificial_Intelligence_and_Machine_Learning-Modi_Purvilkumar_Shaileshbhai.pdf"
+    name: "Java Programming Internship",
+    issuer: "Brainwave Matrix Solution",
+    date: "April 2025",
+    image: "/assets/document/java1.pdf", // Example, replace with actual image if available
+    link: "/document/java1.pdf"
   },
   {
-    name: "Data Analytics Job Simulation",
-    issuer: "Deloitte",
+    name: "Python Programming Internship",
+    issuer: "Brainwave Matrix Solution",
+    date: "April 2025",
+    image: "/assets/document/python2.pdf", // Add image if available
+    link: "/document/python2.pdf"
+  },
+  {
+    name: "Introduction to Software Engineering",
+    issuer: "IBM",
+    date: "Feb 2025",
+    image: "/assets/document/introduction to Software Engineering.pdf", // Example, replace with actual image if available
+    link: "/document/introduction to Software Engineering.pdf"
+  },
+  {
+    name: "Introduction to R Programming for Data Science",
+    issuer: "IBM",
+    date: "Oct 2024",
+    image: "/assets/document/introduction to R Programming for Data Science.pdf", // Add image if available
+    link: "/document/introduction to R Programming for Data Science.pdf"
+  },
+  {
+    name: "The Bits and Bytes of Computer Networking",
+    issuer: "Google",
+    date: "Feb 2025",
+    image: "/assets/document/cn.pdf", // Add image if available
+    link: "/document/cn.pdf"
+  },
+  {
+    name: "Introduction to Software Testing",
+    issuer: "University Of Minniesota",
     date: "Jun 2025",
-    image: "/assets/document/dataanalytics_delottee.pdf", // Add image if available
-    link: "/document/dataanalytics_delottee.pdf"
+    image: "/assets/document/testing.pdf", // Add image if available
+    link: "/document/testing.pdf"
   },
   {
-    name: "Cyber Job Simulation",
-    issuer: "Deloitte",
+    name: "Java Bootcamp",
+    issuer: "Lets Upgrade",
     date: "Jun 2025",
-    image: "/assets/document/cyber_delotte.pdf", // Add image if available
-    link: "/document/cyber_delotte.pdf"
+    image: "/assets/document/java.pdf", // Add image if available
+    link: "/document/java.pdf"
   },
   {
-    name: "Technology Job Simulation",
-    issuer: "Deloitte",
-    date: "Jun 2025",
-    image: "/assets/document/delottee_certificate.pdf", // Add image if available
-    link: "/document/delottee_certificate.pdf"
+    name: "JavaScript Bootcamp",
+    issuer: "Lets Upgrade",
+    date: "Jan 2025",
+    image: "/assets/document/JavaScriptBootcamp.pdf", // Add image if available
+    link: "/document/JavaScriptBootcamp.pdf"
   },
   {
-    name: "Career Essentials in Cybersecurity ",
-    issuer: "Microsoft and LinkedIn",
-    date: "Jul 2024",
-    image: "/assets/document/CertificateOfCompletion_Career Essentials in Cybersecurity by Microsoft and LinkedIn.pdf", // Add image if available
-    link: "/document/CertificateOfCompletion_Career Essentials in Cybersecurity by Microsoft and LinkedIn.pdf"
-  },
-  {
-    name: "Cybersecurity Awareness:Cybersecurity Terminology",
-    issuer: "Microsoft and LinkedIn",
-    date: "Jul 2024",
-    image: "/assets/document/CertificateOfCompletion_Cybersecurity Awareness Cybersecurity Terminology.pdf", // Add image if available
-    link: "/document/CertificateOfCompletion_Cybersecurity Awareness Cybersecurity Terminology.pdf"
-  },
-  {
-    name: "Data Visualisation: Empowering Business with Effective Insights",
-    issuer: "Forage",
-    date: "Sep 2024",
-    image: "/assets/document/tata certificate.pdf", // Add image if available
-    link: "/document/tata certificate.pdf"
+    name: "Python Bootcamp",
+    issuer: "Lets Upgrade",
+    date: "Jan 2025",
+    image: "/assets/document/PythonBootcamp.pdf.pdf", // Add image if available
+    link: "/document/PythonBootcamp.pdf"
   },
 ];
 
@@ -553,31 +642,27 @@ const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/purvilmodi",
+    link: "https://github.com/mihirganatra",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/purvil-modi-86839b248/",
+    link: "https://www.linkedin.com/in/mihir-ganatra-489186305/",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://x.com/PurvilModi9999",
+    link: "https://x.com/MihirGanat85389",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/purvil__modi/",
+    link: "https://www.instagram.com/mihirrr__1811/n",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
-  500,
-  "Freelancer",
-  500,
-  "Full-Stack developer",
+"Full-Stack developer",
   500,
   "Frontend developer",
   500,
