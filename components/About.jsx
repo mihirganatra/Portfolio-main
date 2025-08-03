@@ -59,7 +59,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/mihir.pdf"
+          href="document/final.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"
