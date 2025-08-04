@@ -461,7 +461,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/hotel.jpg",
+    image: "/assets/projects/images (8).jpg",
     source_code_link: "https://github.com/mihirganatra/hotelManagement-Asp.net",
     // deployed_link: "https://netflix-clone12345.vercel.app",
   },
